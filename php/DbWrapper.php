@@ -66,11 +66,15 @@ class DbWrapper {
 	private $dbname = "profilyze";//"profileanalysis"; */
 	
 	#region Fields
-	private $servername = "mysqlsrv.cs.tau.ac.il";//"localhost";
-	private $username = "DbMysql07";//"root";
-	private $password = "DbMysql07";//"";
-	private $dbname = "DbMysql07";//"profileanalysis";
+	#private $servername = "mysqlsrv.cs.tau.ac.il";//"localhost";
+	#private $username = "DbMysql07";//"root";
+	#private $password = "DbMysql07";//"";
+	#private $dbname = "DbMysql07";//"profileanalysis";
 	
+	private $servername = "sql7.freemysqlhosting.net";//"localhost";
+	private $username = "sql7133362";//"root";
+	private $password = "gtHhvP4WI6";//"";
+	private $dbname = "sql7133362";//"profileanalysis";
 
 	private $allowed_tables_array = array();
 	
